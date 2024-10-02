@@ -71,6 +71,7 @@ h1, h2 {
 .descritivo {
     text-align: justify;
 }
+
 .card-container {
     display: flex;
     flex-wrap: wrap;
@@ -81,10 +82,10 @@ h1, h2 {
 }
 
 .card{
-    width:160px;
-    padding:10px;
-    border:1px solid #c0cdd3;
-    border-radius:6px;
+    width: 160px;
+    padding: 10px;
+    border: 1px solid #c0cdd3;
+    border-radius: 6px;
 }
 
 .card ul li {
