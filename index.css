@@ -1,0 +1,92 @@
+h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body{
+    font-family: 'Calibri', sans-serif;
+    background-color: #325220;
+    color: #D6D6D6;
+
+}
+
+main {
+    width: 50vw;
+    margin: 0 auto;
+    font-family: 'Calibri', sans-serif;
+}
+
+header ul {
+    padding: 0;
+    margin: 0;
+    display: flex; /* Coloca os itens lado a lado */
+    flex-wrap: wrap;
+    justify-content: flex-end; /* Alinha os itens no centro */
+    gap: 20px; /* Espaçamento entre os itens */
+}
+
+header ul li a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-style: oblique; /* Aplica o estilo */
+    color: #D6D6D6; /* Cor do texto dos links */
+    font-size: 14px; /* Tamanho da fonte */
+}
+
+footer ul {
+    padding: 0;
+    margin: 0;
+    display: flex; /* Coloca os itens lado a lado */
+    flex-wrap: wrap;
+    justify-content: flex-end; /* Alinha os itens no centro */
+    gap: 20px; /* Espaçamento entre os itens */
+}
+
+footer ul li a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-style: oblique; /* Aplica o estilo */
+    color: #D6D6D6; /* Cor do texto dos links */
+    font-size: 14px; /* Tamanho da fonte */
+}
+
+section{
+    padding: 20px 0;
+}
+
+figure {
+    max-width: 160px;
+    max-height: 160px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+figure img {
+    width: 100%;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+.descritivo {
+    text-align: justify;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-gap: 10px;
+    text-align:center;
+    text
+}
+
+.card{
+    width:160px;
+    padding:10px;
+    border:1px solid #c0cdd3;
+    border-radius:6px;
+}
+
+.card ul li {
+    margin-bottom: 6px;
+}
