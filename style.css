@@ -1,10 +1,13 @@
-h1, h2, p, ul {
+h1,
+h2,
+p,
+ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-body{
+body {
     font-family: 'Calibri', sans-serif;
     background-color: #325220;
     color: #D6D6D6;
@@ -20,36 +23,55 @@ main {
 header ul {
     padding: 0;
     margin: 0;
-    display: flex; /* Coloca os itens lado a lado */
+    display: flex;
+    /* Coloca os itens lado a lado */
     flex-wrap: wrap;
-    justify-content: flex-end; /* Alinha os itens no centro */
-    gap: 20px; /* Espaçamento entre os itens */
+    justify-content: flex-end;
+    /* Alinha os itens no centro */
+    gap: 20px;
+    /* Espaçamento entre os itens */
 }
 
 header ul li a {
-    text-decoration: none; /* Remove o sublinhado dos links */
-    font-style: oblique; /* Aplica o estilo */
-    color: #D6D6D6; /* Cor do texto dos links */
-    font-size: 14px; /* Tamanho da fonte */
+    text-decoration: none;
+    /* Remove o sublinhado dos links */
+    font-style: oblique;
+    /* Aplica o estilo */
+    color: #D6D6D6;
+    /* Cor do texto dos links */
+    font-size: 14px;
+    /* Tamanho da fonte */
 }
 
 footer ul {
     padding: 0;
     margin: 0;
-    display: flex; /* Coloca os itens lado a lado */
+    display: flex;
+    /* Coloca os itens lado a lado */
     flex-wrap: wrap;
-    justify-content: flex-end; /* Alinha os itens no centro */
-    gap: 20px; /* Espaçamento entre os itens */
+    justify-content: flex-end;
+    /* Alinha os itens no centro */
+    gap: 20px;
+    /* Espaçamento entre os itens */
 }
 
 footer ul li a {
-    text-decoration: none; /* Remove o sublinhado dos links */
-    font-style: oblique; /* Aplica o estilo */
-    color: #D6D6D6; /* Cor do texto dos links */
-    font-size: 14px; /* Tamanho da fonte */
+    text-decoration: none;
+    /* Remove o sublinhado dos links */
+    font-style: oblique;
+    /* Aplica o estilo */
+    color: #D6D6D6;
+    /* Cor do texto dos links */
+    font-size: 14px;
+    /* Tamanho da fonte */
 }
 
-section{
+.icone{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+section {
     padding: 20px 0;
 }
 
@@ -64,7 +86,8 @@ figure img {
     width: 100%;
 }
 
-h1, h2 {
+h1,
+h2 {
     margin-bottom: 10px;
 }
 
@@ -77,11 +100,11 @@ h1, h2 {
     flex-wrap: wrap;
     justify-content: center;
     grid-gap: 10px;
-    text-align:center;
+    text-align: center;
     text
 }
 
-.card{
+.card {
     width: 160px;
     padding: 10px;
     border: 1px solid #c0cdd3;
